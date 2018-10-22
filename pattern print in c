@@ -1,0 +1,67 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+   int i,j,b,k,l;
+
+for(i=5;i<=7;++i)
+{
+    for(j=15;j>i;--j)
+    {
+       printf(" ");
+    }
+    
+    printf(" ");
+    printf(" ");printf(" ");
+    
+    for(b=1;b<=i;++b)
+    {
+      printf("*");
+    } 
+ 
+    printf(" ");printf(" ");
+ 
+    for(b=1;b<=1;b++)
+    {
+      printf(" ");
+    }
+
+    printf(" ");
+    printf(" ");
+
+    for(b=1;b<=i;++b)
+    {
+       printf("*");
+    } 
+
+    printf("\n");
+}
+
+for(k=10;k>=1;k--)
+{
+
+  for(i=20;i>=k;--i)
+  {
+     printf(" ");
+  }
+  for(j=1;j<=i;j++)
+  {
+     printf("*");
+  }
+
+  for(l=1;l<=j;l++)
+  {
+     printf("*");
+  }
+  for(i=1;i>=k;i++)
+  {
+     printf(" ");
+  }
+  
+  printf("\n");
+}
+
+    return 0;
+}
